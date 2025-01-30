@@ -13,7 +13,7 @@ public class MinutesConversion {
 		
 		Scanner inputDevice = new Scanner(System.in);
 		int minutes=20;
-		final int MINUTES_IN_HOUR=60;
+		final double MINUTES_IN_HOUR=60;
 		final int HOURS_IN_DAY=24;
 		
 		System.out.print("Please enter number of minutes");
@@ -22,7 +22,7 @@ public class MinutesConversion {
 		double minutesToHours = minutes / MINUTES_IN_HOUR;
 		double hoursToDays = minutesToHours / HOURS_IN_DAY;
 		
-		System.out.println(minutes + " minutes are " + minutesToHours + " hours and " 
+		System.out.println(minutes + " equals " + minutesToHours + " hours and equals " 
 				+ hoursToDays + " days");
 		
 	}
